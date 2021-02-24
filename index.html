@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <p class="navbar-brand heading">MovieSearch</p> 
+    </nav>
+    <div class="form-group search-wrapper">
+        <div class="form-group">
+          <div class="input-group mb-3 container">
+            <div class="input-group-prepend">
+              <span class="input-group-text text-search"></span>
+            </div>
+              <input type="text" class="form-control search-input" placeholder="Search movie" autofocus>
+              <div class="cssload-container hide">
+                <div class="cssload-double-torus"></div>
+            </div>
+            <div class="input-group-append">
+              <span class="input-group-text clear"></span>
+              <span class="input-group-text keyboard"></span>
+            </div>
+            <button type="button" class="btn btn-primary btn-search">Search</button>
+          </div>
+        </div>
+      </div>
+      <div class="show-result">
+        text 
+      </div>
+      <div class="sort-buttons">
+      <button type="button" class="btn btn-primary sort">Sort year</button>
+      <button type="button" class="btn btn-primary sort">Sort rating</button>
+    </div>
+    <div class="wrapper">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide swiper-slide-active" style="width: 300.333px; margin-right: 15px;"></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+     <nav class="navbar navbar-expand-lg navbar-dark bg-primary footer">
+        <span class="navbar-brand">RS School 2020q1</span> 
+        <span class="navbar-brand">TimofeiShpak</span> 
+     </nav>
+     <script src="./dist/script.js"></script>
+    </body>
+</html>
